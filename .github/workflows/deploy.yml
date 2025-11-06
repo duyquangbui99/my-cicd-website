@@ -19,8 +19,8 @@ jobs:
         node-version: '18'
     - name: Install dependencies
       run: |
-      npm init -y
-      npm install --save-dev html-validate
+        npm init -y
+        npm install --save-dev html-validate
     
     - name: Validate HTML
       run: npx html-validate index.html
